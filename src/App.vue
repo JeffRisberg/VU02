@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-4">
-          <router-view name="ordering-guide"></router-view>
+          <router-view name="ordering"></router-view>
         </div>
         <div class="col-sm-12 col-md-4">
           <router-view name="delivery"></router-view>

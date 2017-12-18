@@ -3,8 +3,8 @@ const state = {
 }
 
 const mutations = {
-  userStatus (state, user) {
-    if(user) {
+  userStatus(state, user) {
+    if (user) {
       state.currentUser = user.email
     } else {
       state.currentUser = null
@@ -17,7 +17,7 @@ const getters = {
 }
 
 const actions = {
-  setUser ({ commit }, user) {
+  setUser({commit}, user) {
     commit('userStatus', user)
   }
 }
