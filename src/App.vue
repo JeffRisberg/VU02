@@ -46,13 +46,13 @@ export default {
 <style>
   header, footer {
     background: #ECEEEF;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 1.2em;
   }
 
   .card {
     background-color: #69AB64;
-    margin: 20px 0;
+    margin: 10px 0;
     border-radius: 0;
   }
 </style>

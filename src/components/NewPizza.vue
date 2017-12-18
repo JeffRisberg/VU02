@@ -60,8 +60,8 @@ import { dbMenuRef } from '../firebaseConfig'
     data() {
       return {
         newPizza: {
-          'name': ' Eg. Margherita',
-            'description': 'Eg. A delicious tomato based pizza topped with mozzarella',
+          'name': ' Eg. Pepperoni',
+            'description': 'Eg. A delicious tomato based pizza topped with pepperoni',
             'options': [{
               'size': 9,
               'price': 6.95

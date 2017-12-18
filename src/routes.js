@@ -4,7 +4,7 @@ import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Delivery from './components/Delivery.vue'
 import History from './components/History.vue'
-import OrderingGuide from './components/OrderingGuide.vue'
+import Ordering from './components/Ordering.vue'
 import Admin from './components/Admin.vue'
 
 export const routes = [
@@ -12,7 +12,7 @@ export const routes = [
     name: 'homeLink', 
     components: {
       default: Home,
-      "ordering-guide": OrderingGuide,
+      "ordering": Ordering,
       "delivery": Delivery,
       "history": History
     } 
@@ -26,7 +26,7 @@ export const routes = [
       { path: '/contact', name: 'contactLink', component: Contact },
       { path: '/history', name: 'historyLink', component: History },
       { path: '/delivery', name: 'deliveryLink', component: Delivery },
-      { path: '/ordering-guide', name: 'orderingGuideLink', component: OrderingGuide }
+      { path: '/ordering', name: 'orderingLink', component: Ordering }
     ]},
   { path: '*', redirect: '/' }
 ]

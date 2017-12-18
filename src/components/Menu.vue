@@ -40,7 +40,7 @@
               <td><button class="btn btn-sm" 
                           type="button"
                           @click="decreaseQuantity(item)">-</button>
-                <span>{{ item.quantity }}-</span>
+                <span>{{ item.quantity }}</span>
                 <button class="btn btn-sm" 
                         type="button"
                         @click="increaseQuantity(item)">+</button>

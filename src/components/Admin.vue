@@ -34,5 +34,4 @@ export default {
   .order-number {
     margin: 10px 0;
   }
-
 </style>
