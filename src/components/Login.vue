@@ -23,7 +23,7 @@
 
 <script>
 import Firebase from 'firebase'
-import { store } from '../store/store.js'
+import { store } from '../store/index.js'
 
 Firebase.auth().onAuthStateChanged(function(user) {
   if(user) {

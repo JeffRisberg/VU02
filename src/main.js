@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
 import { routes } from './routes'
-import { store } from './store/store.js'
+import { store } from './store/index.js'
 import Accounting from 'accounting-js'
 import App from './App.vue'
 
