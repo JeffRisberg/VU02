@@ -37,7 +37,7 @@ export default {
     ppFooter: Footer
   },
   created () {
-    this.$store.dispatch('setMenuRef', dbMenuRef),
+    this.$store.dispatch('setMenuRef', dbMenuRef)
     this.$store.dispatch('setOrdersRef', dbOrdersRef)
   }
 }
