@@ -15,23 +15,24 @@
   "dependencies": {
     "accounting": "^0.4.1",
     "accounting-js": "^1.1.1",
-    "firebase": "^4.11.0",
+    "firebase": "^5.2.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
     "vuexfire": "^2.3.0"
   },
   "devDependencies": {
-    "babel-core": "^6.0.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.5.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
-    "cross-env": "^5.1.4",
-    "css-loader": "^0.28.11",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
-    "vue-loader": "^14.2.1",
+    "vue-loader": "^15.2.4",
     "vue-template-compiler": "^2.5.16",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.0.8"
   }
 }
