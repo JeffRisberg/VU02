@@ -1,6 +1,6 @@
 # VU02
 
-> A Vue.js project
+> A Vue.js project based on the pizza-planet project
 
 ## Build Setup
 
