@@ -15,7 +15,7 @@
   "dependencies": {
     "accounting": "^0.4.1",
     "accounting-js": "^1.1.1",
-    "firebase": "^5.5.3",
+    "firebase": "^5.5.4",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
